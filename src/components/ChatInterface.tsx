@@ -14,7 +14,7 @@ interface ChatResponse {
 
 // Función para llamar al servidor de chat
 async function sendMessage(message: string): Promise<ChatResponse> {
-  const response = await fetch('http://localhost:4000/api/completion', {
+  const response = await fetch('https://llm-bootcamp.cardor.dev/api/completion', {
     method: 'POST',
     headers: {
       'Content-Type': 'application/json',

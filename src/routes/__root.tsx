@@ -16,7 +16,7 @@ export const Route = createRootRouteWithContext<MyRouterContext>()({
       <Outlet />
       <TanstackDevtools
         config={{
-          position: 'bottom-left',
+          position: 'middle-left',
         }}
         plugins={[
           {
